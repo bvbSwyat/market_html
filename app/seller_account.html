@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta lang="en">
+    <meta content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Admin | Seller Account</title>
+</head>
+<body>
+
+<div class="row cont-1">
+    <div class="row cont-2">
+        <div class="row admin-header seller-admin-header">
+            <div class="admin-content">
+                <div class="logo">
+                    <img src="images/logo/logo-small.svg" alt="">
+                </div>
+                <div class="admin-nav">
+                    <div class="link-list">
+                        <a href="seller_admin.html">Offers</a>
+                        <a href="seller_markets.html">My markets</a>
+                        <a href="seller_followers.html">Followers
+                            <sup>20</sup>
+                        </a>
+                    </div>
+                </div>
+                <div class="admin-btn">
+                    <span class="admin">Rebecca Davis</span>
+
+                    <div class="gear">
+                        <img src="images/img/c55df637-0d99-4feb-bef9-aad3b03e41f9.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="user-popup">
+                <a href="index.html">
+                    <div class="icon"><span class="icon-user"></span></div>
+                    Profile
+                </a>
+                <a href="account.html">
+                    <div class="icon"><span class="icon-settings"></span></div>
+                    Settings
+                </a>
+                <a href="index.html">
+                    <div class="icon"><span class="icon-logout"></span></div>
+                    Logout
+                </a>
+            </div>
+        </div>
+
+        <div class="row admin-main-content seller-profile">
+            <div class="admin-content">
+                <h4>Profile</h4>
+                <button class="btn add-btn green-btn">SAVE</button>
+                <div class="row acc-settings-field">
+                    <div class="image-field">
+                        <img src="images/img/8c0184d7-286b-4ade-81d2-40a5935081ac.jpg" alt="">
+
+                        <p class="blue-link">Change photo</p>
+                    </div>
+                    <div class="inputs">
+                        <input class="gray" type="text" placeholder="Name">
+                        <input class="gray" type="text" placeholder="Telephone">
+
+                        <div class="error-input error">
+                            <input class="gray" type="text" placeholder="Mail" id="err">
+                            <label for="err">You did not enter a mail</label>
+                        </div>
+                        <div class="textarea-with-counter">
+                            <textarea rows="10" cols="50" class="gray" placeholder="asdfsdfsdf"></textarea>
+
+                            <div class="counter">
+                                <span>320</span> symbols
+                            </div>
+                        </div>
+                        <div class="social">
+                            <input class="gray" type="text" placeholder="Name">
+                            <input class="gray" type="text" placeholder="Telephone">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row confirm-save">
+    <span class="close-popup-btn icon-close"></span>
+    <span class="icon-chec"></span>Change saved
+</div>
+
+<div class="row admin-footer">
+    <a href="index.html">© ikganaardemarkt.nl</a>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+    $(".textarea-with-counter>textarea").keyup(function () {
+        $(this).closest(".textarea-with-counter").find(".counter").addClass("show-counter");
+    });
+</script>
+</body>
+</html>

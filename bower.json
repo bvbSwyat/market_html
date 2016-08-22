@@ -1,0 +1,23 @@
+{
+  "name": "market-int",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Roman Hlibchuk <nerohr1@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./app/js/libraries",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1"
+  }
+}
+

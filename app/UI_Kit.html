@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta lang="en">
+    <meta content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--<link rel="stylesheet" href="js/libraries/Swiper/dist/css/swiper.min.css">-->
+
+    <!--<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">-->
+
+
+    <meta name="description" content="Ik ga naar de markt">
+    <title>UI-kit</title>
+</head>
+<body>
+<a href="#" class="btn white-btn">Offer</a>
+
+<input class="gray" type="text" placeholder="Write text here">
+<input type="text" placeholder="Write text here">
+<input class="gray calendar" type="text" placeholder="Write text here">
+<div class="error-input">
+    <input type="text" placeholder="Write text here" id="err">
+    <label for="err">You did not enter a mail</label>
+</div>
+
+<select name="sel" id="sss" class="map">
+    <option value="1">Amsterdam</option>
+    <option value="1">Amsterdam</option>
+    <option value="1">Amsterdam</option>
+</select>
+
+<select name="sel2" id="ss" class="market">
+    <option value="1">AmMarket</option>
+    <option value="1">AmMarket</option>
+    <option value="1">AmMarket</option>
+    <option value="1">AmMarket</option>
+</select>
+
+<div class="required inside">
+    <select class="gray" name="sel2" id="s">
+        <option value="1">AmMarket</option>
+        <option value="1">AmMarket</option>
+        <option value="1">AmMarket</option>
+        <option value="1">AmMarket</option>
+    </select>
+</div>
+
+<button class="btn offer-btn selected"><span class="btn-icon icon-offers"></span>Offer</button>
+<button class="btn seller-btn "><span class="btn-icon icon-user"></span>Sellers</button>
+<button class="btn map-btn "><span class="btn-icon icon-map"></span>Maps</button>
+<button class="btn list-btn "><span class="btn-icon icon-list"></span>List</button>
+
+<a href="#" >Simple link</a>
+<a href="#" class="blue-link">Blue link</a>
+
+<button class="btn">Button</button>
+<button class="btn green-btn" disabled>Button</button>
+
+<button class="btn follow-btn">Follow</button>
+
+<div class="map-window">
+    <div class="map-window-img">
+        <img src="images/img/24131_fullimage_Bloemenmarkt-Janskerkhof_560x350.jpg" alt="Img">
+    </div>
+    <div class="map-window-title">FlMarket</div>
+</div>
+
+<ul class="breadcrumb">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Amsterdam</a></li>
+    <li><a href="#">Markets</a></li>
+    <li class="active">AmMarket</li>
+</ul>
+
+<input type="checkbox" class="day" id="chk">
+<label for="chk">
+    Mon
+</label>
+
+<input type="checkbox" class="day checked-day" id="chk2">
+<label for="chk2">
+    Mon
+</label>
+
+<input type="checkbox" class="" id="chk3">
+<label for="chk3">
+    Mon
+</label>
+
+
+
+<select name="sel2" id="qw" class="gray-small">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="11">11</option>
+    <option value="12">12</option>
+</select>
+
+<select name="sel2" id="qw2" class="mini-sel">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="11">11</option>
+    <option value="12">12</option>
+</select>
+
+<span class="required">Lorem sdc </span>
+
+<div class="textarea-with-counter">
+    <textarea rows="10" cols="50" class="gray" placeholder="asdfsdfsdf"></textarea>
+    <div class="counter">
+        <span>320</span> symbols
+    </div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<!--<script src="js/jquery.mobile-event.min.js"></script>-->
+<!--<script src="js/libraries/Swiper/dist/js/swiper.min.js"></script>-->
+<!--<script src="js/libraries/Swiper/dist/js/swiper.jquery.min.js"></script>-->
+<!--<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>-->
+<script src="js/main.js"></script>
+<script>
+    $(".error-input").click(function() {
+        $(this).addClass("error");
+    });
+    $(".textarea-with-counter>textarea").keyup(function() {
+        $(this).closest(".textarea-with-counter").find(".counter").addClass("show-counter");
+    });
+</script>
+</body>
+</html>

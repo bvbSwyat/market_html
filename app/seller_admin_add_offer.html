@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta lang="en">
+    <meta content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="js/libraries/Swiper/dist/css/swiper.min.css">
+
+    <title>Admin | Add Offer</title>
+</head>
+<body>
+
+<div class="row cont-1">
+    <div class="row cont-2">
+        <div class="row admin-header seller-admin-header">
+            <div class="admin-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo/logo-small.svg" alt="">
+                    </a>
+                </div>
+                <div class="admin-nav">
+                    <div class="link-list">
+                        <a href="seller_admin.html" class="admin-link-active">Offers</a>
+                        <a href="seller_markets.html">My markets</a>
+                        <a href="seller_followers.html">Followers
+                            <sup>20</sup>
+                        </a>
+                    </div>
+                </div>
+                <div class="admin-btn">
+                    <span class="admin">Rebecca Davis</span>
+
+                    <div class="gear">
+                        <img src="images/img/c55df637-0d99-4feb-bef9-aad3b03e41f9.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="user-popup">
+                <a href="seller_account.html">
+                    <div class="icon"><span class="icon-user"></span></div>
+                    Profile
+                </a>
+                <a href="#">
+                    <div class="icon"><span class="icon-settings"></span></div>
+                    Settings
+                </a>
+                <a href="index.html">
+                    <div class="icon"><span class="icon-logout"></span></div>
+                    Logout
+                </a>
+            </div>
+        </div>
+
+        <div class="row admin-main-content">
+            <div class="admin-content">
+                <a href="seller_admin.html" class="back"><span class="icon-back"></span>Back</a>
+                <button class="btn add-btn" disabled>PUBLISH</button>
+                <div class="row add-field add-offer-field">
+                    <h4>Add offers</h4>
+                    <div class="row photo">
+                        <div class="title"><span class="required">Photo</span></div>
+                        <div class="row photo-field">
+                            <div class="photo-item ">
+                                <span class="icon-photo"></span>
+                                <div class="plus"><span class="icon-plus-ios-3"></span></div>
+                                <div class="delete"><span class="icon-delete"></span></div>
+                                <!--<img src="images/img/5ec53eef-4184-498d-a960-8bb832b0b3a8.jpg" alt="">-->
+                            </div>
+                            <div class="photo-item with-photo">
+                                <div class="number">2</div>
+                                <div class="plus"><span class="icon-plus-ios-3"></span></div>
+                                <div class="delete"><span class="icon-delete"></span></div>
+                                <img src="images/img/5ec53eef-4184-498d-a960-8bb832b0b3a8.jpg" alt="">
+                            </div>
+                            <div class="photo-item">
+                                <div class="number">3</div>
+                                <div class="plus"><span class="icon-plus-ios-3"></span></div>
+                                <div class="delete"><span class="icon-delete"></span></div>
+
+                            </div>
+                            <div class="photo-item">
+                                <div class="number">4</div>
+                                <div class="plus"><span class="icon-plus-ios-3"></span></div>
+                                <div class="delete"><span class="icon-delete"></span></div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row inputs">
+                        <div class="required inside">
+                            <input class="gray" type="text" placeholder="Title">
+                        </div>
+                        <div class="textarea-with-counter">
+                            <textarea rows="10" cols="50" class="gray" placeholder="About our offer"></textarea>
+                            <div class="counter">
+                                <span>320</span> symbols
+                            </div>
+                        </div>
+                        <div class="row weekly-daily">
+                            <div class="trigger">
+                                <input type="radio" id="weekly" name="weekly-daily" checked>
+                                <label for="weekly">Weekly offers</label>
+                                <input type="radio" id="daily" name="weekly-daily">
+                                <label for="daily">Daily offers</label>
+                            </div>
+                        </div>
+                        <div class="row required inside">
+                            <select class="gray" name="sel2" id="s">
+                                <option value="1">AmMarket</option>
+                                <option value="1">AmMarket</option>
+                                <option value="1">AmMarket</option>
+                                <option value="1">AmMarket</option>
+                            </select>
+                        </div>
+
+                        <div class="planned">
+                            <input type="checkbox" class="gray" id="chk3">
+                            <label for="chk3">
+                                Planned offers
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row markets">
+                    <h4>Markets</h4>
+
+                    <p>Select supermarkets where your offer will be active</p>
+                    <div class="row admin-items">
+                        <div class="admin-item">
+                            <img src="images/img/Local%20Goods%20market%20AmsterdamNC.jpg" alt="">
+                            <div class="item-info">
+                                <div class="title">
+                                    Albert Cuypmarkt
+                                </div>
+                                <div class="address">1073 BL Amsterdam</div>
+                            </div>
+                            <div class="item-tools">
+                                <div class="add-market-btn">
+                                    <span class="icon-plus-1"></span>
+                                    <span class="icon-check"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="admin-item">
+                            <img src="images/img/Local%20Goods%20market%20AmsterdamNC.jpg" alt="">
+                            <div class="item-info">
+                                <div class="title">
+                                    Albert Cuypmarkt
+                                </div>
+                                <div class="address">1073 BL Amsterdam</div>
+                            </div>
+                            <div class="item-tools">
+                                <div class="add-market-btn added">
+                                    <span class="icon-plus-1"></span>
+                                    <span class="icon-check"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="admin-item">
+                            <img src="images/img/Local%20Goods%20market%20AmsterdamNC.jpg" alt="">
+                            <div class="item-info">
+                                <div class="title">
+                                    Albert Cuypmarkt
+                                </div>
+                                <div class="address">1073 BL Amsterdam</div>
+                            </div>
+                            <div class="item-tools">
+                                <div class="add-market-btn added">
+                                    <span class="icon-plus-1"></span>
+                                    <span class="icon-check"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="admin-item">
+                            <img src="images/img/Local%20Goods%20market%20AmsterdamNC.jpg" alt="">
+                            <div class="item-info">
+                                <div class="title">
+                                    Albert Cuypmarkt
+                                </div>
+                                <div class="address">1073 BL Amsterdam</div>
+                            </div>
+                            <div class="item-tools">
+                                <div class="add-market-btn added">
+                                    <span class="icon-plus-1"></span>
+                                    <span class="icon-check"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row admin-footer">
+    <a href="index.html">© ikganaardemarkt.nl</a>
+</div>
+
+<div class="wrap"></div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?ver=4.4.3"></script>
+<script src="js/libraries/Swiper/dist/js/swiper.min.js"></script>
+<script src="js/libraries/Swiper/dist/js/swiper.jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/map.js"></script>
+<script>
+    new Swiper('.calendar-swiper', {
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 50
+    });
+    $(".textarea-with-counter>textarea").keyup(function() {
+        $(this).closest(".textarea-with-counter").find(".counter").addClass("show-counter");
+    });
+    $(".add-market-btn").click(function () {
+        $(this).toggleClass("added");
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.idea
+/node_modules
+/images
+/app/*
+!/app/css
+!/app/fonts
+!/app/images
+!/app/js
+!/app/*.html
+!/app/js/libraries
+!/app/css/style.css
+/app/css/style.min.css
